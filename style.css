@@ -1,0 +1,263 @@
+body {
+    overflow-x: hidden;
+  }
+
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+header{
+    background-color: #FFD201;
+}
+.navigations{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 16px;
+    background-color: #ffd201;
+    font-weight:500;
+    color: #000000;
+    /* font-family:Prompt,sans-serif; */
+    
+}
+
+.navigations .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner{
+    padding-top: 125px;
+    
+}
+.banner h1{
+    font-weight: bolder;
+    font-size: 72px;
+    color: #000000;
+    font-family:Prompt,sans-serif; 
+    text-transform: uppercase;
+    line-height: 1;
+
+}
+.banner h1 span{
+    color: white;
+}
+
+.banner button{
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    /* font-size: 18px; */
+    font-family: Prompt,sans-serif;
+    margin: 32px 0px 0px;
+    /* padding: 0px 24px; */
+    color: black;
+    font-size: 1.2rem; /* Increase font size */
+    padding: 0.7rem 1.5rem; /* Increase padding */
+    font-weight: bold;
+}
+
+.banner img{
+   max-width: 100%;
+   height: auto;
+   
+}
+.i_am_multi_fit h1{
+        color: #000000;
+}   
+        
+ .section1-p{
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 160%;
+    font-size: 1rem;
+    
+}
+
+
+/* card */
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 25px;
+    
+  }
+
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    
+  }
+
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+   
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+    padding: 1rem;
+   
+  }
+
+  .card-body .card-text {
+    display: none;
+  }
+
+  .card-body .card-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+
+
+  }
+
+  .card:hover .card-body {
+    transform: translateY(-2%);
+   
+    background-color: #000007;
+  
+   
+   
+    
+  }
+
+.card:hover .card-title{
+    color:#FFD201;
+}
+
+  .card:hover .card-body .card-text {
+    display: block;
+    
+  }
+
+  .card:hover .card-body {
+    background: rgba(0, 0, 0, 0.75);
+    
+  }
+
+.static-card{
+  background-color: #000000;
+  
+  
+}
+ .card-title-static{
+    
+   font-size: 32px; 
+    color: #FFD201;
+  }
+  /*card end  */
+
+  /* section 2 */
+  
+  .section2 .p-1 {
+    background-color: #FFE560;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .section2 .p-1 {
+    display: flex;
+    align-items: center;
+   
+  }
+  .section2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 35px;
+  }
+
+  /* section 3 */
+  .section3{
+    background-image: url(Section3_Images/bg.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position:left;
+  
+  }
+
+  /* section 4 */
+  .section4{
+    background-image: url(Section4_Images/why.jpg);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    padding: 0 20px; /* Optional: Add some padding */
+    
+  }
+  
+  /* Section 5 */
+  
+  .carousel-item {
+    min-height: 300px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343a40;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #ffd201;
+    border-radius: 50%;
+}
+.carousel-item h4 {
+    background-color: #68541d;
+    color: white;
+    padding: 10px;
+}
+.carousel-item p {
+    font-weight: 500;
+    padding: 15px;
+}
+
+/* footer */
+
+.edit_text a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.edit_text a:hover {
+  color: #FFD201;
+}
+/* copy right */
+.copyright {
+  background: #1C1B17;
+  padding: 1rem 0;
+  border-top: 0.063rem solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+
+  
+ 
